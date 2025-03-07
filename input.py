@@ -1,3 +1,13 @@
+import sys
+import zlib
+import base64
+import marshal
+import hashlib
+from itertools import cycle
+
+
+from itertools import cycle
+
 def custom_decode(data, salt='rH0jzlpDk2YQiMXK', magic=9299):
     result = bytearray()
     for b, salt_char in zip(data, cycle(salt.encode())):
