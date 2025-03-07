@@ -1,4 +1,4 @@
-//Fri Mar 07 2025 09:11:05 GMT+0000 (Coordinated Universal Time)
+//Fri Mar 07 2025 09:17:15 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 const $ = new Env("大潮");
