@@ -1,6 +1,13 @@
-//Tue Mar 18 2025 04:18:34 GMT+0000 (Coordinated Universal Time)
+//Tue Mar 18 2025 04:38:45 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
+/**
+ * cron "20 9,15,21 * * *" WangChao.js
+ * export WangChao="账号1&密码1 账号2&密码2"
+ * export GHPROXYURL="https://ghfast.top"
+ */
+const $ = new Env("\u671B\u6F6E");
+const notify = $.isNode() ? require("./sendNotify") : "";
 function a0e(a, b) {
   var c = a0c();
   return a0e = function (d, e) {
